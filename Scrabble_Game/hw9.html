@@ -1,0 +1,63 @@
+<!--Allana Cheenille Ricafort, UMass Lowell Computer Science, allanacheenille_ricafort@student.uml.edu
+    91.61 GUI Programming Assignment: JQuery Scrabble Game on December 22, 2019 -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery HW9</title>
+  <link rel= "stylesheet" href ="hw9.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src = "hw9.js"> </script>
+</head>
+<body>
+<div id = "containment">
+    <h1> RETRO SCRABBLE </h1>
+  <h2 id = "score"> CURRENT SCORE: 0 </h2>
+    <p id = "remaining" ></p>
+    <h2 id = "tscore"> TOTAL SCORE: 0 </h2>
+
+<div id = "drop-box" >  <!-- div for drop boxes -->
+  <div id = "drop-box-one" class="ui-widget-header">  <!-- made droppbale in JS file -->
+    </div>
+
+    <div id = "drop-box-two" class="ui-widget-header">  <!-- made droppbale in JS file -->
+      </div>
+
+      <div id = "drop-box-three" class="ui-widget-header">  <!-- made droppbale in JS file -->
+        </div>
+
+        <div id = "drop-box-four" class="ui-widget-header">  <!-- made droppbale in JS file -->
+          </div>
+
+          <div id = "drop-box-five" class="ui-widget-header">  <!-- made droppbale in JS file -->
+            </div>
+
+            <div id = "drop-box-six" class="ui-widget-header">  <!-- made droppbale in JS file -->
+              </div>
+
+              <div id = "drop-box-seven" class="ui-widget-header">  <!-- made droppbale in JS file -->
+                </div>
+
+            </div>
+
+            <div id = "draggables-items" class="ui-widget-header">  <!-- div for tile rack, made droppable in JS file -->
+              <ul id = "draggables"> <!-- div for draggable letter tiles, letter tiles are declared as li items in JS file -->
+              </ul>
+            </div>
+            <div id = "buttons">
+              <button onclick = "finalScore()" class = "press"> WORD! </button>  <!-- button for when word is generated -->
+              <button onclick = "newLetterSet()"  class = "press"> NEW SET </button>  <!-- button for when new word set is generated -->
+                <button onclick = "newGame()"  class = "press"> NEW GAME </button>  <!-- button for new game  -->
+              </div>
+
+              <h3> To play Retro Scrabble, drag the letter tiles onto the board to create words. If you created a word, <br>
+                press the WORD! button to save the score. Press the NEW SET button to generate new seven letter tiles. <br>
+                Press the NEW GAME button to restart a whole new game! <h3> <!-- instructions for the game -->
+          </div>
+            </body>
+
+</html>

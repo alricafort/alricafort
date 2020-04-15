@@ -1,0 +1,160 @@
+/* Allana Cheenille Ricafort, UMass Lowell Computer Science, allanacheenille_ricafort@student.uml.edu
+    91.61 GUI Programming Assignment: JQuery Scrabble Game on December 22, 2019 */
+
+body {
+  background-image: url('grid.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+h2, h3 {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+
+}
+
+h3 {
+  background-color: black;
+  width: 500px;
+  margin: auto;
+}
+
+.press {
+  font-size: 25px;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  font-family: monospace;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#keepscore {
+  color: white;
+}
+
+
+#draggables-items {
+  background-image: url('scrabble-tile-holder.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1000px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: center;
+  margin-top: 50px;
+}
+li {
+  background-color: black;
+    width: 80px;
+    height: 80px;
+    padding: 0.5em;
+    margin: 10px 10px 10px 0;
+  }
+
+#drop-box {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1010px;
+  height: 110px;
+}
+
+#drop-box-one {
+  background-image: url('tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 101px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display:inline-block;
+  margin: 10px;
+}
+
+#drop-box-two {
+  background-image: url('double_tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 104px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#drop-box-three {
+  background-image: url('tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 101px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#drop-box-four {
+  background-image: url('tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 101px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#drop-box-five {
+  background-image: url('tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 101px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#drop-box-six {
+  background-image: url('double_tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 104px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#drop-box-seven {
+  background-image: url('tile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 101px;
+  width: 100px;
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+}
