@@ -1,0 +1,75 @@
+style
+* {
+    box-sizing: border-box
+}
+body {
+    background-color: #FFFFFF;
+}
+
+.navigationBar {
+    background-color: #003153;
+
+}
+
+.front {
+    background-image: url(bb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    min-height: 500px;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.midContent {
+}
+.profile {
+    height: 250px;
+    width: 400px;
+    background-color: #003153;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #003153;
+}
+
+.bottom {
+    background-color: #003153;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 500px;
+    margin-top: -250px;
+    z-index: 1;
+}
+.intro {
+    width: 250px;
+    height: 250px;
+    margin-left: 250px;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+.proPic {
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: -250px;
+    background-size: cover;
+    background-image: url("propic.jpg");
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#003153;
+    height: 20px;
+    line-height: 20px;
+}
