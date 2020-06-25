@@ -3,23 +3,23 @@ style
     box-sizing: border-box
 }
 body {
-    background-color: #FFFFFF;
+    background-color: #001437;
 }
 
 .navigationBar {
-    background-color: #003153;
+    background-color: #5ce5d5;
 
 }
 
 .jumbotron {
-    background-image: url(bb.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 500px;
-    min-height: 500px;
+   background-color: #7898fb;
+    height: 400px;
+    min-height: 400px;
 }
 
-.midContent {
+.navbar-brand{
+    font-family: 'Brush Script MT';
+    font-size: 25px;
 }
 .profile {
     height: 250px;
@@ -37,20 +37,20 @@ body {
 }
 
 .bottom {
-    background-color: #003153;
+    background-color: #5ce5d5;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
     min-width: 500px;
-    margin-top: -250px;
     z-index: 1;
+    margin-top: 87px;
 }
 .intro {
     width: 250px;
     height: 250px;
     margin-left: 250px;
     margin-right: auto;
-    background-color: #FFFFFF;
+    background-color: #001437;
 }
 
 .proPic {
@@ -63,11 +63,57 @@ body {
     background-image: url("propic.jpg");
 }
 
+.about {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    margin-top: 100px;
+}
+
+.about, .skills, .portfolio, .contact {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    margin-top: 60px;
+}
+
+.about_box {
+    text-align: center;
+    background-color: #7898fb;
+}
+
+.bars {
+    margin-top: 20px;
+}
+
+.myProgress {
+    background-color: #344E5C;
+    width: 400px;
+    margin: auto;
+}
+
+#myBar1, #myBar2, #myBar3, #myBar4, #myBar5, #myBar6, #myBar7, #myBar8, #myBar9, #myBar10 {
+    width: 1%;
+    height: 40px;
+    background-color: #5ce5d5;
+}
+
+h1 {
+    margin-left: 10px;
+    float: left;
+    font-size: 30px;
+}
+
+.line {
+    border: 2px solid white;
+    width: 300px;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:#003153;
+    background-color: #5ce5d5;
     height: 20px;
     line-height: 20px;
 }
