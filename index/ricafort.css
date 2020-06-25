@@ -13,11 +13,10 @@ body {
 
 .jumbotron {
     background-image: url(bb.jpg);
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 500px;
     min-height: 500px;
-    width: 100%;
 }
 
 .midContent {
